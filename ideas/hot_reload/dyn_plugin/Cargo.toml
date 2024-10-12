@@ -1,0 +1,10 @@
+[package]
+name = "dyn_plugin"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+hot_reload = { path = ".." }
+
+[lib]
+crate-type = ["dylib"]
